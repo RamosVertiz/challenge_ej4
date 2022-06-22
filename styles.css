@@ -1,0 +1,81 @@
+body {
+    background-color: #FFEDD2;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal {
+    width: 486px;
+    height: 458px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.perfil {
+    
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+img {
+    width: 130px;
+    border-radius: 20px;
+   
+
+}
+
+
+p{
+    margin-top: 0px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.containerBotones {
+    
+    width: 80% ;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.botones {
+    height: 40px;
+    width: 40%;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 30px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguir {
+    background: rgb(250,150,57);
+background: linear-gradient(317deg, rgba(250,150,57,1) 13%, rgba(250,57,103,1) 100%);
+}
+
+.enviarMensaje {
+    background-color: #FFEDD2;
+
+}
+
+span {
+    margin-right: 7px;
+}
